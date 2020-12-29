@@ -23,24 +23,6 @@ public class MainActivity extends AppCompatActivity {
     private final static String TAG1 = "num1";
     private final static String TAG2 = "num2";
 
-    private Button number0;
-    private Button number1;
-    private Button number2;
-    private Button number3;
-    private Button number4;
-    private Button number5;
-    private Button number6;
-    private Button number7;
-    private Button number8;
-    private Button number9;
-
-    private Button addButton;
-    private Button subButton;
-    private Button multiButton;
-    private Button divButton;
-    private Button resultButton;
-    private Button allClearButton;
-
     private TextView resultText;
 
     public static double calculate(double num1, double num2, String operator, double result) {
@@ -77,24 +59,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        number0 = (Button) findViewById(R.id.number0);
-        number1 = (Button) findViewById(R.id.number1);
-        number2 = (Button) findViewById(R.id.number2);
-        number3 = (Button) findViewById(R.id.number3);
-        number4 = (Button) findViewById(R.id.number4);
-        number5 = (Button) findViewById(R.id.number5);
-        number6 = (Button) findViewById(R.id.number6);
-        number7 = (Button) findViewById(R.id.number7);
-        number8 = (Button) findViewById(R.id.number8);
-        number9 = (Button) findViewById(R.id.number9);
-
-        addButton = (Button) findViewById(R.id.addButton);
-        subButton = (Button) findViewById(R.id.subButton);
-        multiButton = (Button) findViewById(R.id.multiButton);
-        divButton = (Button) findViewById(R.id.divButton);
-        resultButton = (Button) findViewById(R.id.resultButton);
-        allClearButton = (Button) findViewById(R.id.allClearButton);
 
         resultText = (TextView) findViewById(R.id.resultText);
 
